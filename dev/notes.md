@@ -1,0 +1,3 @@
+pages is the pdf files of each page, numbered in order. submissions-unprocessed are the unsorted source files from submissions. zagassist are the project files from the photo and text only submissions. editor pages are the pages made by the editor i.r. inside cover, toc, etc. process.sh is all the bash commands that make submissions-unprocessed into pages. in theory you should be able to delete pages, run process (from an empty pages dir), and have the zine ready to go.
+
+the odg files are quite big... I think they aren't dymanically linked, i.e. they contain duplicates of all the pictures inside of them. this makes them big and laggy and a pain to upload.
